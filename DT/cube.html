@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mensuration&mdash;Cube</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="mensuration.js"></script>
+	<link rel="stylesheet" type="text/css" href="mensuration.css">
+	 <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+		<style> 
+body{padding-top:30px;}
+label,input{display:block;} 
+</style>
+
+
+<div class="main">
+	<p>Input length value and get the area, Total Surface Area(TSA) and Lateral Surface Area(LSA) of Cube.</p>
+    <label for="length">Length</label><input type="length" name="length" id="length" required>
+    <h3>Result</h3>
+    <label for="vol">Volume</label><input type="vol" name="vol" id="vol">
+    <label for="tsa">Total Surface Area(TSA)</label><input type="text" name="tsa" id="tsa">
+    <label for="lsa">Lateral Surface Area(LSA)</label><input type="text" name="lsa" id="lsa">
+    <input type="submit" value="Calculate" id="submit" onclick="cube()">   
+</div>
+
+  </body>
+</html>

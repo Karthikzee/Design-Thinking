@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mensuration&mdash;Cylinder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="mensuration.js"></script>
+  <link rel="stylesheet" type="text/css" href="mensuration.css">
+   <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <style> 
+body{padding-top:30px;}
+label,input{display:block;} 
+</style>
+
+
+<div class="main">
+
+      <p>Input radius and height value and get the volume and area of a Cylinder.</p>
+      <label for="radius">Radius</label><input type="text" name="radius" id="radius" required>
+      <label for="radius">Height</label><input type="text" name="height" id="height" required>
+      <h3>Result</h3>
+      <label for="volume">Volume</label><input type="text" name="volume" id="vol">
+      <label for="area">Area</label><input type="text" name="area" id="area">
+      <input type="submit" value="Calculate" id="submit" onclick="cylinder()">
+    </div>
+</body>
+</html>

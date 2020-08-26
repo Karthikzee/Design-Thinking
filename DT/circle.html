@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mensuration&mdash;Circle</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="mensuration.js"></script>
+	<link rel="stylesheet" type="text/css" href="mensuration.css">
+	 <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+<style> 
+body{padding-top:30px;}
+label,input{display:block;} 
+</style>
+
+
+<div class="main">
+
+	<p>Input radius value and get the area and circumference of a Circle.</p>
+    <label for="radius">Radius</label><input type="text" name="radius" id="radius" required>
+    <h3>Result</h3>
+    <label for="area">Area</label><input type="text" name="area" id="area">
+    <label for="cir">Circumference</label><input type="text" name="cir" id="cir">
+    <input type="submit" value="Calculate" id="submit" onclick="circle()">   
+</div>
+  </body>
+</html>
